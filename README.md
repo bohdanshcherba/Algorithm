@@ -1,2 +1,3 @@
 # Algorithm
- algorithm
+###Double-ended queue
+
