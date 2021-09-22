@@ -66,10 +66,9 @@ class Deque:
 
     def is_empty(self):
         if self.head is None:
-            print('Deque is Empty')
+            return True
         else:
-            print('Deque is not Empty')
-        return
+            return False
 
     def clear(self):
         self.head = None
