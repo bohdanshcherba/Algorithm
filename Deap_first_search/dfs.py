@@ -19,13 +19,8 @@ class Graph:
 
         active.append(start_vertex)
         while True:
-            if key not in accessible.keys():
-                active.pop()
 
-                key = active[-1]
-                continue
-
-            if not accessible[key]:
+            if key not in accessible.keys() or not accessible[key]:
                 active.pop()
 
                 if not active:
